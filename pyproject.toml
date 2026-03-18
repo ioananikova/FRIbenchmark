@@ -1,0 +1,17 @@
+[project]
+name = "fri_benchmark"
+authors = [
+    { name = "Nikova, Ioana", email = "ioana.nikova@siemens.com" }
+]
+description = "Benchmark and FR-IGD implementation for feasible region identification"
+version = "0.1.0"
+requires-python = "==3.11.6"
+dependencies = [
+    "scikit-learn ==1.7.2",
+    "matplotlib ==3.10.7",
+    "torch ==2.9.1",
+    "gpytorch ==1.14.2",
+    "botorch ==0.16.0",
+    "torchmetrics ==1.8.2",
+    "pandas ==2.3.3",
+]
