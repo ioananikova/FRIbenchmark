@@ -2,7 +2,7 @@
 
 This repository contains the code from the paper "Towards Standardized Evaluation of Feasible Region Identification in Constrained Engineering Design".
 
-# Supplementary Material
+## Supplementary Material
 `supplementary_material.pdf` contains the the problem descriptions, experiment setup and additional figures as a supplement to the main paper.
 
 ## Setup UV
