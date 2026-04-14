@@ -18,7 +18,7 @@ def create_test_sets(num_points: int, bounds: torch.Tensor, dim: int) -> torch.T
     """
     lower_bounds = bounds[0]
     upper_bounds = bounds[1]
-    random_points = SobolEngine(dim, scramble=True, seed=1000).draw(num_points)
+    random_points = SobolEngine(dim, scramble=True, seed=5000).draw(num_points)
     scaled_points = lower_bounds + (upper_bounds - lower_bounds) * random_points
     return scaled_points
 
