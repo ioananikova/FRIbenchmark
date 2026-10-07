@@ -33,7 +33,8 @@ An example usage of all parts is given in `example_runner.py`.
 ```
 @inproceedings{nikova2026towards,
 title={Towards standardized evaluation of feasible region identification in constrained engineering design},
-authors={Nikova, Ioana and Dhebar, Yashesh and Rojas Gonzalez, Sebastian and Dhaene, Tom and Couckuyt, Ivo},
+authors={Nikova, Ioana and Dhebar, Yashesh and {Rojas Gonzalez}, Sebastian and Dhaene, Tom and Couckuyt, Ivo},
+book title = {To appear in IEEE Congress on Evolutionary Computation},
 year={2026},
 }
 ```
